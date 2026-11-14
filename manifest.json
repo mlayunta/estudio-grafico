@@ -1,0 +1,33 @@
+{
+  "id": "layunta-studio",
+  "name": "Layunta Studio — Suite de Diseño Gráfico Profesional",
+  "short_name": "Layunta Studio",
+  "description": "Suite de diseño gráfico vectorial: precisión interactiva, flujo de trabajo profesional y ecosistema colaborativo. Autor: Miguel Ángel Layunta López.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#080a0f",
+  "theme_color": "#7c5cff",
+  "categories": ["graphics", "productivity", "design", "utilities"],
+  "icons": [
+    { "src": "icons/icon-96.png",           "sizes": "96x96",   "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-192.png",          "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png",          "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "icons/screenshot-wide.png",   "sizes": "1280x720", "type": "image/png", "form_factor": "wide",   "label": "Lienzo de trabajo con paneles de herramientas y capas" },
+    { "src": "icons/screenshot-narrow.png", "sizes": "720x1280", "type": "image/png", "form_factor": "narrow", "label": "Edición táctil en el móvil" }
+  ],
+  "shortcuts": [
+    { "name": "Documento nuevo",    "short_name": "Nuevo",    "url": "./index.html?accion=nuevo",    "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "Importar archivo",   "short_name": "Importar", "url": "./index.html?accion=importar", "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96", "type": "image/png" }] },
+    { "name": "Paleta de comandos", "short_name": "Comandos", "url": "./index.html?accion=paleta",   "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96", "type": "image/png" }] }
+  ],
+  "prefer_related_applications": false
+}
